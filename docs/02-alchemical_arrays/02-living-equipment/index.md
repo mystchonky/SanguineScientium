@@ -10,11 +10,7 @@ With some [Arcane Ashes](#arcane-ash) and a handful of this new Binding Reagent,
 
 To create Living Equipment, you will first need Iron Armor (or Iron Armour, if you prefer), some [Arcane Ash](#arcane-ash), and some Binding Reagent. You'll also need at least a [Common Tartaric Gem](#tartaric-gems) in order to hold the Demon Will required.
 
-
-
-
 ![Image](/img/AlchemyArrays/LivingEquipment/1.png)
-
 
 _It clings to me tightly..._
 
