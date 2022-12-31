@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/BloodMagic-Docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/orb.png',
   organizationName: 'luiq54',
   projectName: 'BloodMagic-Docs',
 
@@ -30,6 +30,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/luiq54/BloodMagic-Docs/edit/master',
@@ -44,19 +47,25 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: false,
+        },
+      },
       navbar: {
         title: 'Blood Magic : Alchemical Wizardry',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Blood Magic',
+          src: 'img/logo.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'guide',
-            position: 'left',
-            label: 'Guide',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'guide',
+          //   position: 'left',
+          //   label: 'Guide',
+          // },
           {
             href: 'https://github.com/luiq54/BloodMagic-Docs',
             label: 'GitHub',
