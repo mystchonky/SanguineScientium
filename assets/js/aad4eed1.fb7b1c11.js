@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblood_magic_docs=self.webpackChunkblood_magic_docs||[]).push([[750],{1231:o=>{o.exports=JSON.parse('{"label":"docusaurus","permalink":"/BloodMagic-Docs/blog/tags/docusaurus","allTagsPath":"/BloodMagic-Docs/blog/tags","count":4}')}}]);

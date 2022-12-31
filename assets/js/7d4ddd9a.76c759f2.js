@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblood_magic_docs=self.webpackChunkblood_magic_docs||[]).push([[463],{3914:o=>{o.exports=JSON.parse('{"label":"hola","permalink":"/BloodMagic-Docs/blog/tags/hola","allTagsPath":"/BloodMagic-Docs/blog/tags","count":1}')}}]);
