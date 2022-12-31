@@ -1,7 +1,6 @@
 ---
 title: 'Blood Magic : Alchemical Wizardry'
 description: Main Guide
-<!-- hide_table_of_contents: true -->
 ---
 *Minecraft Version 1.18.2* <br />
 *BM Version 1.18.2-3.2.6-41*
