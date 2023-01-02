@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Blood Magic : Alchemical Wizardry',
+  title: 'Blood Magic: Alchemical Wizardry',
   tagline: 'Gruesome? Probably. Worth it? Definitely!',
   url: 'https://luiq54.github.io/',
   baseUrl: '/BloodMagic-Docs/',
@@ -50,47 +50,22 @@ const config = {
       docs: {
         sidebar: {
           hideable: true,
-          autoCollapseCategories: false,
+          // autoCollapseCategories: false,
         },
       },
       navbar: {
-        title: 'Blood Magic : Alchemical Wizardry',
+        title: 'Blood Magic: Alchemical Wizardry',
         logo: {
           alt: 'Blood Magic',
           src: 'img/logo.png',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'guide',
-          //   position: 'left',
-          //   label: 'Guide',
-          // },
           {
             href: 'https://github.com/luiq54/BloodMagic-Docs',
             label: 'GitHub',
             position: 'right',
           },
         ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/VtNrGrs',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/WayofTime/BloodMagic',
-              },
-            ],
-          },
-        ],
-        copyright: `Blood Magic : Alchemical Wizardry Guide. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
