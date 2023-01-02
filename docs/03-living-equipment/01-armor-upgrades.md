@@ -36,7 +36,7 @@ Adds Living Armour Socket Curios Slots to the player that are able to hold compa
 
 This upgrade can't be trained, only crafted. By default, each [Upgrade Tome](#upgrade-tomes) adds one additional slot.
 
-![Image](/img/AlchemyArrays/LivingEquipment/5.png)
+![Image](/img/LivingEquipment/5.png)
 
 **Maximum level:** 5
 
@@ -58,7 +58,7 @@ This Elytra does drain durability from the Chestplate, but at half the speed of 
 
 It also looks pretty neat.
 
-![Image](/img/AlchemyArrays/LivingEquipment/6.png)
+![Image](/img/LivingEquipment/6.png)
 
 Level 1: 15 upgrade points
 
