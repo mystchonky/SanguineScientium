@@ -9,12 +9,12 @@ const config = {
   title: 'Blood Magic: Alchemical Wizardry',
   tagline: 'Gruesome? Probably. Worth it? Definitely!',
   url: 'https://luiq54.github.io/',
-  baseUrl: '/BloodMagic-Docs/',
+  baseUrl: '/SanguineScientium/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/orb.png',
   organizationName: 'luiq54',
-  projectName: 'BloodMagic-Docs',
+  projectName: 'SanguineScientium',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
