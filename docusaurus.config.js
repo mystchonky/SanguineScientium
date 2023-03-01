@@ -61,10 +61,21 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/luiq54/BloodMagic-Docs',
-            label: 'GitHub',
+            href: 'https://www.curseforge.com/minecraft/mc-mods/blood-magic',
             position: 'right',
+            className: "header-curse-link",
           },
+          {
+            href: 'https://discord.gg/VtNrGrs',
+            position: 'right',
+            className: "header-discord-link",
+          },
+          {
+            href: 'https://github.com/luiq54/SanguineScientium',
+            position: 'right',
+            className: "header-github-link",
+          },
+
         ],
       },
       prism: {
