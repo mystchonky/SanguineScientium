@@ -42,7 +42,7 @@ const config = {
         },
       }),
     ],
-  ],
+  ],  
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -77,6 +77,11 @@ const config = {
           },
 
         ],
+      },
+      algolia: {
+        appId: "IUNCZ90MD9",
+        apiKey: "c0cdb1261b9bd5d085b338ebca310e85",
+        indexName: "sanguinescientium",
       },
       prism: {
         theme: lightCodeTheme,
