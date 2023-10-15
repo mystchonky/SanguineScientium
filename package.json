@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "generate" :"ts-node ./scripts/generator.ts",
+    "generate": "ts-node ./scripts/parserGenerator.ts",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
