@@ -42,7 +42,7 @@ sidebar_position: ${entry.sortnum || 0}
 function parsePage(page: PatchouliPage, content: string): string {
   if (page.type == "patchouli:text") {
     const textPage = page as PatchouliPageText;
-    content += `${textPage.text}\n`;
+    content += `${textPage.text}\n\n`;
   }
   return content;
 }
