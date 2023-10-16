@@ -55,4 +55,6 @@ const getCategoryString = (category: PatchouliCategory) =>
 title: ${category.name}
 sidebar_position: ${category.sortnum || 0}
 ---
+
+${category.description}
 `;

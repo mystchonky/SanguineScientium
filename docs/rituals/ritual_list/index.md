@@ -2,3 +2,5 @@
 title: List of Rituals
 sidebar_position: 0
 ---
+
+Some simpler $(thing)Rituals$() will be available to you when you have a Tier III $(l:bloodmagic:altar/blood_altar)Blood Altar$(), but the more advanced ones will require $(dusk)Dusk Runes$(), and thus a Tier IV Altar. $(br2)Use a $(item)Ritual Diviner$() to assemble the rituals, an $(item)Activation Crystal$() to activate them, and a $(item)Ritual Tinkerer$() to fine-tune them. Don't forget to keep your $(thing)Soul Network$() topped off!

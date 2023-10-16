@@ -2,3 +2,5 @@
 title: Utility Blocks & Items
 sidebar_position: 99
 ---
+
+AKA the "Miscellaneous" bin. General information about the mod goes here, along with anything else that doesn't quite fit in another category, yet doesn't have enough to warrant a category of its own.

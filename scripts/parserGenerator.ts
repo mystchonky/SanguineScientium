@@ -1,20 +1,21 @@
 import fs from "fs";
 import path from "path";
 import { generateCategoryScaffold } from "./categoryHelper";
-import { PatchouliCategory } from "./interfaces";
+import { PatchouliCategory, PatchouliEntry } from "./interfaces";
+import { generateEntries } from "./entryHelper";
 
 const main = () => {
   // parse categories
   const categoryBasePath = "./raws/en_us/categories";
-  const categoryJsons: { [id: string]: PatchouliCategory } = {};
+  const categories: { [id: string]: PatchouliCategory } = {};
 
   fs.readdirSync(categoryBasePath, { encoding: "utf8", recursive: true })
     .filter((file) => path.extname(file) == ".json")
     .forEach((file) => {
       const fileData = fs.readFileSync(path.join(categoryBasePath, file));
-      const json: PatchouliCategory = JSON.parse(fileData.toString());
+      const category: PatchouliCategory = JSON.parse(fileData.toString());
       const filename = path.parse(path.join(categoryBasePath, file)).name;
-      categoryJsons[filename] = json;
+      categories[filename] = category;
     });
 
   // console.log(categoryJsons);
@@ -25,9 +26,22 @@ const main = () => {
     fs.rmSync(path.join(docsBasePath, doc), { recursive: true })
   );
 
-  generateCategoryScaffold(categoryJsons, docsBasePath);
+  generateCategoryScaffold(categories, docsBasePath);
 
   // parse entries
+  const entriesBasePath = "./raws/en_us/entries";
+  const entries: { [id: string]: PatchouliEntry } = {};
+
+  fs.readdirSync(entriesBasePath, { encoding: "utf8", recursive: true })
+    .filter((file) => path.extname(file) == ".json")
+    .forEach((file) => {
+      const fileData = fs.readFileSync(path.join(entriesBasePath, file));
+      const entry: PatchouliEntry = JSON.parse(fileData.toString());
+      const filename = path.parse(path.join(entriesBasePath, file)).name;
+      entries[filename] = entry;
+    });
+
+  generateEntries(entries, categories, docsBasePath);
 };
 
 main();

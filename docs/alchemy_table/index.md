@@ -2,3 +2,5 @@
 title: Alchemy Table
 sidebar_position: 1
 ---
+
+The $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$() is a highly versatile part of your equipment as a sanguimancer. It can double ores, produce basic ingredients from other less-useful items, and even create $(l:bloodmagic:alchemy_table/anointments)Anointments$()!
